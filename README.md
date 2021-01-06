@@ -48,5 +48,7 @@ stripHtmlTags($string,'li');
 
 ``` PHP
 $string = '<li class="class">My Wonderfull li tag and remove only tag</li>';
+
+//add 3rd parameter and make it true
 stripHtmlTags($string,'li',true);
 ```

@@ -26,7 +26,7 @@ $string = '<div class="class">My Wonderfull data and remove div tag</div>';
 stripHtmlTags($string,'div');
 ```
 
-# 1.1. How to remove "DIV" tags from String - using PHP
+###### 1.1. How to remove "DIV" tags from String - using PHP
 
 use a 3rd parameter in the function and make it true like 
 
@@ -44,7 +44,7 @@ $string = '<li class="class">My Wonderfull li tag and remove only tag</li>';
 stripHtmlTags($string,'li');
 ```
 
-## 2.1. Remove "LI" tags and "DATA" - using PHP
+###### 2.1. Remove "LI" tags and "DATA" - using PHP
 
 ``` PHP
 $string = '<li class="class">My Wonderfull li tag and remove only tag</li>';

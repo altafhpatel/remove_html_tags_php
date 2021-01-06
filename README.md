@@ -2,7 +2,7 @@
 
 Here is how to remove html tags from any string we have write a function
 
-`
+``
 function stripHtmlTags($str, $tags, $stripContent = false) {
 	  $content = '';
 	  if(!is_array($tags)) {
@@ -16,4 +16,4 @@ function stripHtmlTags($str, $tags, $stripContent = false) {
 		}
   	return $str;
 } // function strip_only
-`
+``

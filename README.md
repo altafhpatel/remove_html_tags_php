@@ -1,8 +1,10 @@
-# remove_html_tags_php
+# Remove HTML Tags using PHP
 
-Here is how to remove html tags from any string we have write a function
+Here is how to remove html tags from any string using php. we just need to use this function and call some parameters.
 
-```
+
+
+```PHP
 function stripHtmlTags($str, $tags, $stripContent = false) {
 	  $content = '';
 	  if(!is_array($tags)) {
